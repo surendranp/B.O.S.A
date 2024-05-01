@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://kit.fontawesome.com/fe4cb25373.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light ">
+        <div class="container" id="div2">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/Logo.png"  alt="Logo" width="auto" height="80">
+          </a>
+          <p><span class="text-primary fw-bold fs-2">B</span > . <span class="text-primary fw-bold fs-2">O</span> . <span class="text-primary fs-2 fw-bold">S</span> . <span class="text-primary fw-bold fs-2">A</span></p>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-light text-center" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./About.html" >About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Services.html" >Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-primary" href="./Gallery.html" >Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact.html" >Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- call and whatsapp buttons -->
+<div class="fixed-icon container-fluid d-flex flex-row justify-content-between">
+  <a href="https://wa.me/6379219816"><i class="fa-brands fa-whatsapp fa-bounce whatsapp"  style="color: #ffffff;background: 
+    #00b37d;padding: 18px 18px; border-radius: 5em;box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.5); margin-left: 5em; "></i></a>
+  <i class="fa-solid fa-phone-volume fa-bounce" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  onclick="openFullscreenMessage()" style="color: #ffffff; background:
+   #007bff;padding: 15px 15px; border-radius: 5em; box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.5);"></i>
+</div>
+          <!-- model  -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content text-secondary">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Please contact</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  please contact our team <B>(+91)6379219816,9790342064</B> Know more Details about B.O.S.A arena.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <!-- gallery  -->
+      <div class="container mt-5 mb-5 " >
+        <div class="filter-btns ">
+            <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+            <button class="btn btn-primary filter-btn" data-filter="cricket">Cricket</button>
+            <button class="btn btn-primary filter-btn" data-filter="football">FootBall</button>
+            <button class="btn btn-primary filter-btn" data-filter="badminton">Badmition</button>
+            <button class="btn btn-primary filter-btn" data-filter="silambam">Silambam</button>
+            <button class="btn btn-primary filter-btn" data-filter="arena">Arena</button>
+            <button class="btn btn-primary filter-btn" data-filter="archery">Archery</button>
+            <button class="btn btn-primary filter-btn" data-filter="Videos">Videos</button>
+        </div>
+    
+        <div class="gallery-container  gap-5 ">
+            <div class="gallery-item cricket"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/Adult-cricket.jpg" alt="cricket"></div>
+            <div class="gallery-item football"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/ADULT-FOOTBALL.jpeg" alt="football"></div>
+            <div class="gallery-item badminton"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/adult-badmition.jpg" alt="badminton"></div>
+            <div class="gallery-item silambam"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/adult-silambam.jpg" alt="silambam"></div>
+            <div class="gallery-item badminton"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/kids-badmiton.jpg" alt="badminton"></div>
+            <div class="gallery-item football"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/kids-football.jpg" alt="football"></div>
+            <div class="gallery-item cricket"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/kids-cricket.jpg" alt="cricket"></div>
+            <div class="gallery-item football"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/KIDS-FOOTBALL.jpeg" alt="football"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/KIDS-1.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/OUT-TRUFT.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/KIDS.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/TRUFT-1.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/TRUFT-3.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/TRUFT-4.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/INDOOR.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/ENTRANCE.jpeg" alt="arena"></div>
+            <div class="gallery-item arena"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/ANCHOUR.jpeg" alt="arena"></div>
+            <div class="gallery-item archery"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/ARCHERY-TEAM.jpeg" alt="archery"></div>
+            <!-- <div class="gallery-item archery"><img src="./assets/B.O.S.A-IMAGE & VIDEOS/kids-archery.jpg" alt="archery"></div> -->
+            <!-- Add more images with appropriate classes -->
+        </div>
+    </div>
+    
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-btn lightbox-btn-left  text-light fw-bold" onclick="showPrevImage()">&lt;</button>
+            <img src="" alt="" class="lightbox-img">
+            <button class="lightbox-btn lightbox-btn-right  text-light fw-bold " onclick="showNextImage()">&gt;</button>
+        </div>
+        <button class="lightbox-btn close-btn  text-light fw-bold" onclick="closeLightbox()">x</button>
+    </div>
+
+    <!-- video  -->
+    <h1 class="fs-1 fw-bold text-center mt-5 mb-5 text-primary">Blue Ocean Sports Arena</h1>
+            <div class="gallery-item videos container-fluid" style="width: 100%;">
+              <div id="bannerContainer box" style="height: 80vh;">
+                <video autoplay muted loop>
+                  <source src="./assets/B.O.S.A-IMAGE & VIDEOS/Bosa.mp4" alt="videos"  type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Content overlay -->
+                <div class="content bg-transparent" >                    
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item videos container-fluid" style="width: 100%;">
+              <div id="bannerContainer box">
+                <video autoplay muted loop>
+                  <source src="./assets/B.O.S.A-IMAGE & VIDEOS/BOSA-drone.mp4" alt="videos"  type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Content overlay -->
+                <div class="content bg-transparent" >                    
+                </div>
+              </div>
+            </div>
+            <h1 class="fs-1 fw-bold text-center mt-5 mb-5 text-primary">OUR Facilities</h1>
+            <div class="gallery-item videos container-fluid" style="width: 100%;">
+              <div id="bannerContainer box">
+                <video autoplay muted loop>
+                  <source src="./assets/B.O.S.A-IMAGE & VIDEOS/BOSA-vollyball.mp4" alt="videos"  type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Content overlay -->
+                <div class="content bg-transparent" >                    
+                </div>
+              </div>
+            </div>
+
+              <!-- ------Map and links----->
+              <div class="container4 mt-5 bg-black opacity-75 pt-5 pe-5 ps-5 pb-5 mb-4">
+                <div class="row">
+                  <div class="">
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d125748.56655115144!2d78.0779881949807!3d9.963655502191154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3b00c717eb945659%3A0x1e0d5bc0fcb99d32!2s55%2F4%20Surya%20Nagar%201st%20street%2C%20Alagar%20Kovil%20Main%20Rd%2C%20near%20bus%20stop%2C%20Madurai%2C%20Tamil%20Nadu%20625007!3m2!1d9.963665599999999!2d78.1603901!5e0!3m2!1sen!2sin!4v1712745667509!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                <div class=" text-center  ">
+                  <h3 class="fs-2 fw-bolder mt-2 text-light">Address</h3>
+                  <p class="fs-4 fw-normal text-light">No:12, 3rd street, meenatchi nagar,vilangudi, madurai-625018. <br>
+                      Email: hoperesearch ceneter2018@gmail.com.<br>
+                      <button  type="button" class="btn btn-primary border-0 ms-2  btn-box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">calll:(+91)9790342064</button>
+                  </p>
+              </div>
+              </div>
+              </div>
+              <!-- ------------------------------- -->
+
+              <!-- footer -->
+<footer class="container-fluid  overflow-hidden" width="100%" heigh="auto" style="background-color: black;">
+  <div class="row ">
+      <div class=" col-lg-4 text-center mt-2 ">
+      <img src="./assets/Logo.png" style="margin-left: 2em;" width="30%" height="auto" alt="">
+      <p class="fs-3 fw-bold">Blue Ocean Sports Arena</p>
+      <p>YOUR NEAREST SPORTS COMMUNITY</p> 
+  </div>
+  
+  <div class="col-lg-4  text-center mt-2 mb-5 ">
+      <h3 class="sm-me-5 mt-5 pt-5 fw-bold">Quick Links</h3>
+    <div class="content2 mt-3">
+      <ul class="d-flex flex-row gap-4">
+       <li> <a href="index.html" >Home</a></li>
+       <li> <a href="About.html">About</a></li>
+       <li><a href="Servicecs.html">Services</a></li>
+       <li><a href="Gallery.html">Gallery</a></li>
+       <li><a href="Contact.html">Contact</a></li>            
+      </ul> 
+    </div>
+  
+  </div>
+  <div class="col-lg-3  text-center  pt-5 ">
+      <h3 class="fw-bold">Address</h3>
+      <p>55/4 Surya Nagar 1st street, Alagar Kovil Main Rd, n ear bus stop, Madurai, Tamil Nadu 625007
+          Email: bsportsarena@gmail.com<br>
+          call: (+91)9790342064
+      </p>
+  </div>
+  </div>
+  <hr>
+  <div class="container overflow-hidden text-center">
+  <div class="row gap-5 mb-3 " >
+  <div class="col-lg-6 text-warning">Copyright © 2024 Blue Ocean Sports Arena</div>
+  <div class="col-lg-5 text-warning"> Developed by Spark Web Tech</div>
+  </div>
+  </div>
+  </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+const navlikEls=document.querySelectorAll('.nav-link');
+        const windowpathname=window.location.pathname;
+        navlikEls.forEach(navlikEls => {
+            const navlinkPathname=new URL(navlikEls.href).pathname;
+            if((windowpathname === navlinkPathname) || (windowpathname === '/index.html' && navlinkPathname === '/')  ){
+                navlikEls.classList.add('active');
+                navlikEls.style.color="white";
+                navlikEls.style.dropshadow="balck,10px,10px,10px";
+            }
+        }); 
+</script>
+<!-- gallery filters  -->
+<script>
+  let images = [];
+  let currentIndex = 0;
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = lightbox.querySelector('.lightbox-img');
+  
+  // Function to open the lightbox
+  function openLightbox(imageSrc) {
+      currentIndex = images.indexOf(imageSrc);
+      lightboxImg.src = imageSrc;
+      lightbox.style.display = 'flex';
+  }
+  
+  // Function to show the next image
+  function showNextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      lightboxImg.src = images[currentIndex];
+  }
+  
+  // Function to show the previous image
+  function showPrevImage() {
+      currentIndex = (currentIndex === 0) ? (images.length - 1) : (currentIndex - 1);
+      lightboxImg.src = images[currentIndex];
+  }
+  
+  // Function to close the lightbox
+  function closeLightbox() {
+      lightbox.style.display = 'none';
+  }
+  
+  // Populate the images array
+  document.addEventListener("DOMContentLoaded", function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item img');
+  
+      filterBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+              const filter = btn.getAttribute('data-filter');
+              galleryItems.forEach(item => {
+                  if (filter === 'all' || item.parentElement.classList.contains(filter)) {
+                      item.parentElement.style.display = 'block';
+                  } else {
+                      item.parentElement.style.display = 'none';
+                  }
+              });
+          });
+      });
+  
+      galleryItems.forEach(item => {
+          item.addEventListener('click', () => {
+              const imgSrc = item.getAttribute('src');
+              openLightbox(imgSrc);
+          });
+      });
+  
+      galleryItems.forEach(item => {
+          images.push(item.getAttribute('src'));
+      });
+  });
+  </script>
+    
+</body>
+</html>
