@@ -147,7 +147,10 @@
   <hr>
   <div class="container overflow-hidden text-center">
   <div class="row gap-5 mb-3 " >
-  <div class="col-lg-6 text-warning">Copyright © 2024 Blue Ocean Sports Arena</div>
+  <div class="col-lg-6 text-warning">
+    Copyright
+      &copy; <span id="copyright-year"></span> Blue Ocean Sports Arena
+  </div>
   <div class="col-lg-5 text-warning"> Developed by Spark Web Tech</div>
   </div>
   </div>
@@ -169,7 +172,11 @@ const navlikEls=document.querySelectorAll('.nav-link');
             }
         });
 
-
+// copy right
+document.addEventListener("DOMContentLoaded", function() {
+  var currentYear = new Date().getFullYear();
+  document.getElementById("copyright-year").innerText = currentYear;
+});
 </script>
     
 </body>
